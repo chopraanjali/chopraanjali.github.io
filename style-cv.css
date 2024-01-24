@@ -95,6 +95,32 @@ div.footer {
     text-align: right;
 }
 
+div.fourOfour {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    span {
+        font-family: "MuseoModerno", sans-serif;
+        font-size: xxx-large;
+        margin-inline-start: 4%;
+    }
+}
+
+#oops {
+    font-family: "MuseoModerno", sans-serif;
+    font-weight: 800;
+    font-size: 12rem;
+    /* font-optical-sizing: auto; */
+}
+
+#oops-text {
+    font-weight: 300;
+    font-size: x-large;
+}
+
 
 /* // <uniquifier>: Use a uniquifier for the class name
 // <weight>: Use a value from 100 to 900
