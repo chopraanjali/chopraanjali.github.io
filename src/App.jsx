@@ -8,21 +8,21 @@ function App() {
   return (
     <>
       <Navbar />
-      <h1>Hi, I'm Anjali!</h1>
       <div className="card">
+        <h1>Hi, I'm Anjali!</h1>
         <p>
           I'm a frontend developer based in Magdeburg, Germany. <br />I ensure
           the co-existence of function and beauty in my work and pay close
           attention to detail.
         </p>
-      </div>
-      <div id="workLinkIntro">
-        Check out my work{" "}
-        <span>
-          <a href="/Users/anjali/FreshStart/UdemyCourse/Portfolio/projects.html">
-            here
-          </a>
-        </span>
+        <div id="workLinkIntro">
+          Check out my work{" "}
+          <span>
+            <a href="/Users/anjali/FreshStart/UdemyCourse/Portfolio/projects.html">
+              here
+            </a>
+          </span>
+        </div>
       </div>
     </>
   );
