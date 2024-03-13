@@ -2,7 +2,7 @@
   "name": "portfolio",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://chopraanjali.github.io",
+  "homepage": "https://chopraanjali.github.io/portfolio/",
   "type": "module",
   "scripts": {
     "predeploy": "npm run dev",
