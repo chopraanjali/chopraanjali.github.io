@@ -6,16 +6,16 @@ export default function Navbar() {
           <a href="index.html">Home</a>
         </li>
         <li>
-          <a href="404.html">Education</a>
+          <a href="">Education</a>
         </li>
         <li>
-          <a href="404.html">Work Experience</a>
+          <a href="">Work Experience</a>
         </li>
         <li>
-          <a href="404.html">Projects</a>
+          <a href="">Projects</a>
         </li>
         <li>
-          <a href="404.html">Contact</a>
+          <a href="">Contact</a>
         </li>
       </ul>
     </nav>

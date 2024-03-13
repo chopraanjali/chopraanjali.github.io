@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "./App.scss";
 import Navbar from "./components/Layout/Navbar";
+import Footer from "./components/Layout/Footer";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -12,9 +13,15 @@ function App() {
         <h1>Hi, I'm Anjali!</h1>
         <p>
           I'm a frontend developer based in Magdeburg, Germany. <br />I ensure
-          the co-existence of function and beauty in my work and pay close
-          attention to detail.
+          the co-existence of function and beauty in my work and love to create
+          engaging user experiences.
         </p>
+        <div>
+          <p>
+            Tech stack: HTML5, CSS3, SASS, JavaScript, TypeScript, ReactJS,
+            NodeJS, MongoDB, Python
+          </p>
+        </div>
         <div id="workLinkIntro">
           Check out my work{" "}
           <span>
@@ -24,6 +31,7 @@ function App() {
           </span>
         </div>
       </div>
+      <Footer />
     </>
   );
 }
