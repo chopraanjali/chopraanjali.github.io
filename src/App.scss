@@ -34,11 +34,18 @@
 }
 
 .card {
-  padding: 2em;
+  padding: 6em 5em;
   min-height: 50vh;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+}
+
+.footer {
+  font-size: 0.8rem;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
 }
 
 .read-the-docs {
