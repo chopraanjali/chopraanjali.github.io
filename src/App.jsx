@@ -1,11 +1,13 @@
 import { useState } from "react";
 import "./App.css";
+import Navbar from "./components/Layout/Navbar";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <>
+      <Navbar />
       <h1>Hi, I'm Anjali!</h1>
       <div className="card">
         <p>
@@ -15,7 +17,7 @@ function App() {
         </p>
       </div>
       <div id="workLinkIntro">
-        Check out my work
+        Check out my work{" "}
         <span>
           <a href="/Users/anjali/FreshStart/UdemyCourse/Portfolio/projects.html">
             here
