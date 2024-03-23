@@ -1,21 +1,22 @@
+import { Link } from "react-router-dom";
 export default function Navbar() {
   return (
     <nav className="sticky">
       <ul>
         <li>
-          <a href="index.html">Home</a>
+          <Link to="/">Home</Link>
         </li>
         <li>
-          <a href="">Education</a>
+          <Link to="/education">Education</Link>
         </li>
         <li>
-          <a href="">Work Experience</a>
+          <Link to="/workExperience">Work Experience</Link>
         </li>
         <li>
-          <a href="">Projects</a>
+          <Link to="/projects">Projects</Link>
         </li>
         <li>
-          <a href="">Contact</a>
+          <Link to="/contact">Contact</Link>
         </li>
       </ul>
     </nav>
