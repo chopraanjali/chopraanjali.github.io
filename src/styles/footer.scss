@@ -1,0 +1,76 @@
+.footer {
+    height: 37%;
+    padding: 3% 3%;
+}
+
+.footer-container-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 5%;
+}
+
+.footer-nav{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    a {
+        color: #fff;
+        padding: 0% 35% 0% 0%;
+    }
+
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    padding: 3% 1.5%;
+}
+
+.download-resume-link{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 1.5%;
+    
+   img {
+    height: 18px;
+    transform: translateY(1px);
+   }
+
+   span {
+    padding-left: 4px;
+   }
+}
+
+.copyright {
+    color: #e5e5e5;
+    font-size: smaller;
+}
+
+
+.footer-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 6.5%;
+}
+
+.quick-links{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+
+    a {
+        padding: 0% 25%;
+
+        img {
+            color: #b7b7b7;
+            height: 25px;
+        }
+      
+    }
+
+    .mailIcon{
+        padding-right: 0%
+    }
+}
