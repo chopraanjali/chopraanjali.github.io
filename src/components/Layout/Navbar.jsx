@@ -1,24 +1,27 @@
 import { Link } from "react-router-dom";
+import DarkLightToggle from "./DarkLightToggle";
+
 export default function Navbar() {
   return (
     <nav className="sticky">
       <ul>
         <li>
-          <Link to="/">Home</Link>
+          <Link to="/">Anjali</Link>
         </li>
         <li>
-          <Link to="/education">Education</Link>
-        </li>
-        <li>
-          <Link to="/workExperience">Work Experience</Link>
+          <Link to="/education">Background</Link>
         </li>
         <li>
           <Link to="/projects">Projects</Link>
         </li>
         <li>
-          <Link to="/contact">Contact</Link>
+          <Link to="/art">Art</Link>
+        </li>
+        <li>
+          <Link to="/contact">About</Link>
         </li>
       </ul>
+      <DarkLightToggle />
     </nav>
   );
 }
