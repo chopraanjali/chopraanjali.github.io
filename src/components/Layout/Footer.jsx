@@ -51,6 +51,7 @@ export default function Footer() {
           </a>
         </div>
       </div>
+      <div className="footer-designer-credit">Designed by Sarthak Sachdeva</div>
     </div>
   );
 }

@@ -1,6 +1,7 @@
 .footer {
     height: 37%;
     padding: 3% 3%;
+    padding-bottom: 1.5%;
     background-color: $footer-background-color-dark;
 }
 
@@ -19,6 +20,7 @@
     a {
         color: #fff;
         padding: 0% 35% 0% 0%;
+        font-weight: $bold;
     }
 
     font-size: 0.8rem;
@@ -31,7 +33,7 @@
     flex-direction: row;
     justify-content: flex-end;
     padding-right: 1.5%;
-    
+    font-size: 0.8rem;
    img {
     height: 18px;
     transform: translateY(1px);
@@ -74,4 +76,10 @@
     .mailIcon{
         padding-right: 0%
     }
+}
+
+.footer-designer-credit{
+    font-weight: $regular;
+    font-size: 0.7rem;
+    color: #5b5b5b;
 }
