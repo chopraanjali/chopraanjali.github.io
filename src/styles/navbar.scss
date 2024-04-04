@@ -49,18 +49,3 @@ nav ul {
     margin: 0% 3px;
   }
 }
-
-.dark-light-toggle {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  // align-items: center;
-  button {
-    background-color: inherit;
-    border: none;
-  }
-  img {
-    height: 1rem;
-  }
-  padding-right: 1%;
-}

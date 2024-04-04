@@ -8,9 +8,11 @@ import Contact from "./components/Pages/Contact";
 import Projects from "./components/Pages/Projects";
 import WorkExperience from "./components/Pages/WorkExperience";
 import Education from "./components/Pages/Education";
+import Art from "./components/Pages/Art";
+import WindowPane from "./components/Layout/WindowPane";
 
 function App() {
-  const [count, setCount] = useState(0);
+  // const [count, setCount] = useState(0);
 
   return (
     <>
@@ -22,6 +24,7 @@ function App() {
           <Route path="education" element={<Education />}></Route>
           <Route path="workExperience" element={<WorkExperience />}></Route>
           <Route path="projects" element={<Projects />}></Route>
+          <Route path="art" element={<Art />}></Route>
         </Routes>
 
         <Footer />

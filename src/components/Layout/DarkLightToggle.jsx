@@ -1,19 +1,19 @@
 import moonIcon from "../../assets/moon-icon.svg";
 import sunIcon from "../../assets/sun-icon.svg";
-import toggleIcon from "../../assets/toggle-button-icon.svg";
 
 export default function DarkLightToggle() {
   return (
     <div className="dark-light-toggle">
-      <button>
+      <div className="toggle-child">
         <img src={sunIcon} alt="" />
-      </button>
-      <button>
-        <img src={toggleIcon} alt="" />
-      </button>
-      <button>
+      </div>
+      <div className="toggle-child toggle-switch">
+        <input type="checkbox" name="toggle" id="toggle" />
+        <label htmlFor="toggle" />
+      </div>
+      <div className="toggle-child">
         <img src={moonIcon} alt="" />
-      </button>
+      </div>
     </div>
   );
 }

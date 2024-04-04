@@ -1,85 +1,83 @@
 .footer {
-    height: 37%;
-    padding: 3% 3%;
-    padding-bottom: 1.5%;
-    background-color: $footer-background-color-dark;
+  height: 37%;
+  padding: 3% 3%;
+  padding-bottom: 1.5%;
+  background-color: $footer-background-color-dark;
 }
 
 .footer-container-top {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 2% 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2% 5%;
 }
 
-.footer-nav{
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    a {
-        color: #fff;
-        padding: 0% 35% 0% 0%;
-        font-weight: $bold;
-    }
+.footer-nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  a {
+    color: #fff;
+    padding: 0% 35% 0% 0%;
+    font-weight: $bold;
+  }
 
-    font-size: 0.8rem;
-    text-transform: uppercase;
-    padding: 3% 1.5%;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  padding: 3% 1.5%;
 }
 
-.download-resume-link{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    padding-right: 1.5%;
-    font-size: 0.8rem;
-   img {
+.download-resume-link {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding-right: 1.5%;
+  font-size: 0.8rem;
+  img {
     height: 18px;
     transform: translateY(1px);
-   }
+  }
 
-   span {
+  span {
     padding-left: 4px;
-   }
+  }
 }
 
 .copyright {
-    color: #e5e5e5;
-    font-size: smaller;
+  color: #e5e5e5;
+  font-size: smaller;
 }
 
-
-.footer-links{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 2% 6.5%;
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2% 6.5%;
 }
 
-.quick-links{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: flex-end;
+.quick-links {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
 
-    a {
-        padding: 0% 25%;
+  a {
+    padding: 0% 25%;
 
-        img {
-            color: #b7b7b7;
-            height: 25px;
-        }
-      
+    img {
+      color: #b7b7b7;
+      height: 25px;
     }
+  }
 
-    .mailIcon{
-        padding-right: 0%
-    }
+  .mailIcon {
+    padding-right: 0%;
+  }
 }
 
-.footer-designer-credit{
-    font-weight: $regular;
-    font-size: 0.7rem;
-    color: #5b5b5b;
+.footer-designer-credit {
+  font-weight: $regular;
+  font-size: 0.7rem;
+  color: #5b5b5b;
 }

@@ -1,11 +1,14 @@
 import { Link } from "react-router-dom";
+import WindowPane from "../Layout/WindowPane";
 export default function Home() {
   return (
     <>
       <div className="card">
-        <h1>Hi, I'm Anjali!</h1>
+        <WindowPane />
+
+        <h1>Hi, Im Anjali!</h1>
         <p>
-          I'm a frontend developer based in Magdeburg, Germany. <br />I ensure
+          Im a frontend developer based in Magdeburg, Germany. <br />I ensure
           the co-existence of function and beauty in my work and love to create
           engaging user experiences.
         </p>
