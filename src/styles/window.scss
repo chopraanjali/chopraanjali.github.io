@@ -7,14 +7,16 @@
   // width: rem(1100);
   border-radius: 23px;
   border: 2px solid #d9d9d9;
+  box-shadow: 0.9rem 0.95rem $box-shadow-color-purple;
 }
 
 .toolbar {
   background-color: #d9d9d9;
   position: relative;
-  height: 43px;
+  height: 41px;
+  margin: 0;
   vertical-align: middle;
-  //   border: 2px solid #d9d9d9;
+  // border: 2px solid #d9d9d9;
   border-top-left-radius: 20px;
   // border-top-left-radius: 3.5rem;
   border-top-right-radius: 20px;

@@ -1,11 +1,16 @@
-// ******* COLOR SCHEME VARIABLES  ******* 
-$navbar-background-color-dark: #7C678B; 
-$background-color-dark: #413C4F;
+// ******* COLOR SCHEME VARIABLES  *******
+$navbar-background-color-dark: #7c678b;
+$background-color-dark: #413c4f;
 $footer-background-color-dark: #111015;
-$base-color-dark: #211E28;
-$font-color-dark: #FFFFFF;
-$font-hover-color: #CD6D00;
-$hyperlink-color: #E2AB00;
+$base-color-dark: #211e28;
+$font-color-dark: #ffffff;
+$font-hover-color: #cd6d00;
+$hyperlink-color: #e2ab00;
+$box-shadow-color-purple: #9f558f;
+$box-shadow-color-blue: #1e6187;
+
+//**** Light mode variables
+$box-shadow-color-black: #313131;
 
 // ****** FONT VARIABLE WEIGHTS ********
 // DM SANS
@@ -15,7 +20,7 @@ $extra-light: 200;
 $light: 300;
 $regular: 400;
 $medium: 500;
-$semi-bold:600;
+$semi-bold: 600;
 $bold: 700;
 $extra-bold: 800;
 $black: 900;
