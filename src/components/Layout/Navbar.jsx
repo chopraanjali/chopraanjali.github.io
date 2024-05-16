@@ -1,5 +1,5 @@
-import { Link } from "react-router-dom";
-import DarkLightToggle from "./DarkLightToggle";
+import { Link } from 'react-router-dom';
+import DarkLightToggle from './DarkLightToggle';
 
 export default function Navbar() {
   return (
