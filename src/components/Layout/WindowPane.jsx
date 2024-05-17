@@ -3,7 +3,14 @@ import volumeIcon from '../../assets/volume-icon.svg';
 import arrowIcon from '../../assets/arrow-icon.svg';
 import { Link } from 'react-router-dom';
 
-export default function WindowPane() {
+export default function WindowPane({
+  title,
+  subtitle,
+  isIcon = false,
+  detailsLink,
+  isNavigationButtons = false,
+  className,
+}) {
   return (
     <div className="window-container">
       <div className="toolbar">
@@ -12,28 +19,34 @@ export default function WindowPane() {
           <div className="quick-action-button"></div>
           <div className="quick-action-button"></div>
         </div>
-        <div className="nav-buttons">
-          <div className="nav-button nav-button-left boxed">
-            <span>{'<'}</span>
+
+        {isNavigationButtons && (
+          <div className="nav-buttons">
+            <div className="nav-button nav-button-left boxed">
+              <span>{'<'}</span>
+            </div>
+            <div className="nav-button nav-button-right boxed">
+              <span>{'>'}</span>
+            </div>
           </div>
-          <div className="nav-button nav-button-right boxed">
-            <span>{'>'}</span>
-          </div>
-        </div>
+        )}
       </div>
-      <div className="content-windowpane-top">
-        <div className="name">Anjali Chopra</div>
+
+      <div className={`${className} content-windowpane-top`}>
+        <div className="name">{title}</div>
         <div className="name-guide">
-          <span>/un-juh-lee cho-pra/ </span>
-          <button className="vol-icon">
-            <img src={volumeIcon} alt="" />
-          </button>
+          <span>{subtitle}</span>
+          {isIcon && (
+            <button className="vol-icon">
+              <img src={volumeIcon} alt="" />
+            </button>
+          )}
         </div>
       </div>
       <HorizontalRule />
       <div className="content-windowpane-bottom">
         <Link to="/contact">
-          About{' '}
+          {detailsLink}{' '}
           <span className="arrow-icon">
             <img src={arrowIcon} alt="" />
           </span>
