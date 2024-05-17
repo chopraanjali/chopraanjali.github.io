@@ -11,6 +11,10 @@
 }
 
 .toolbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
   background-color: #d9d9d9;
   position: relative;
   height: 41px;
@@ -43,6 +47,21 @@
     }
     &:nth-of-type(3) {
       background-color: #32c000;
+    }
+  }
+
+  .nav-buttons {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    padding-left: 0.2em;
+
+    .nav-button {
+      height: 25px;
+      width: 25px;
+      border-radius: 5px;
+      background-color: #f5f5f5;
+      color: #747474;
     }
   }
 }
