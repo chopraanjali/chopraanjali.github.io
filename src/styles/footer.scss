@@ -42,6 +42,11 @@
   span {
     padding-left: 4px;
   }
+
+  &:hover {
+    filter: brightness(0) saturate(100%) invert(46%) sepia(62%) saturate(3691%)
+      hue-rotate(16deg) brightness(95%) contrast(101%);
+  }
 }
 
 .copyright {
