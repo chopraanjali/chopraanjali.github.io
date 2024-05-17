@@ -36,7 +36,7 @@ label {
 }
 
 label:after {
-  content: "";
+  content: '';
   width: 0.68em;
   height: 0.68em;
   position: absolute;
@@ -58,7 +58,7 @@ input {
 // }
 
 input:checked + label:after {
-  left: 1.55em;
+  left: 1.5em;
   transform: translatex(-100%);
   //   background: linear-gradient(180deg, #777, #3a3a3a);
 }
