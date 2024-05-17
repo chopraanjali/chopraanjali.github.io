@@ -1,6 +1,6 @@
 :root {
   // font-family: DM Sans, Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  font-family: "DM Sans", sans-serif;
+  font-family: 'DM Sans', sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
   line-height: 1.5;
@@ -19,11 +19,11 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-@import "./styles/navbar.scss";
-@import "./styles/footer.scss";
-@import "./styles/variables.scss";
-@import "./styles/window.scss";
-@import "./styles/toggle-switch.scss";
+@import './styles/navbar.scss';
+@import './styles/footer.scss';
+@import './styles/variables.scss';
+@import './styles/window.scss';
+@import './styles/toggle-switch.scss';
 
 a {
   // font-weight: 500;
@@ -43,13 +43,13 @@ body {
   min-height: 100vh;
 }
 
-h1 {
-  font-size: 3.2em;
-  border: 1px solid white;
-  border-top-left-radius: 3.5rem;
-  border-top-right-radius: 3.5rem;
-  line-height: 1.1;
-}
+// h1 {
+//   font-size: 3.2em;
+//   // border: 1px solid white;
+//   // border-top-left-radius: 3.5rem;
+//   // border-top-right-radius: 3.5rem;
+//   // line-height: 1.1;
+// }
 
 // button {
 //   border-radius: 8px;
