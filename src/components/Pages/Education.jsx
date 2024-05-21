@@ -1,7 +1,7 @@
 export default function Education() {
   return (
     <>
-      <div>Education</div>
+      <div className="card">Education</div>
     </>
   );
 }

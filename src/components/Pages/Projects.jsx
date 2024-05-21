@@ -1,7 +1,7 @@
-import ProjectItem from "./ProjectItem";
+import ProjectItem from './ProjectItem';
 export default function Projects() {
   return (
-    <div>
+    <div className="card">
       <ProjectItem />
       <ProjectItem />
       <ProjectItem />

@@ -1,7 +1,7 @@
 export default function WorkExperience() {
   return (
     <>
-      <div>Work Experience</div>
+      <div className="card">Work Experience</div>
     </>
   );
 }
