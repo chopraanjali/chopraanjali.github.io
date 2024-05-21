@@ -24,6 +24,7 @@
 @import './styles/variables.scss';
 @import './styles/window.scss';
 @import './styles/toggle-switch.scss';
+@import './styles/toolbar.scss';
 
 a {
   // font-weight: 500;
@@ -91,5 +92,5 @@ body {
   width: 87%;
   color: #373737;
   height: 0px;
-  border: 1px solid;
+  border: 0.9px solid;
 }
