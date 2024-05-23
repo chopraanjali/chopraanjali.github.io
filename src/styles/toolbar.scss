@@ -8,9 +8,7 @@
   height: 41px;
   margin: 0;
   vertical-align: middle;
-  // border: 2px solid #d9d9d9;
   border-top-left-radius: 20px;
-  // border-top-left-radius: 3.5rem;
   border-top-right-radius: 20px;
 
   .quick-action-buttons {
@@ -51,11 +49,27 @@
       background-color: #f5f5f5;
       color: #747474;
 
+      &.nav-button-right {
+        button img {
+          transform: scale(-1);
+        }
+      }
+
       button {
         border-width: 0;
         background-color: inherit;
         cursor: pointer;
-        color: #747474;
+        // color: #747474;
+        padding: 0;
+        margin: 0;
+        transform: translateY(1px);
+
+        img {
+          padding: 0;
+          margin: 0;
+          height: 12px;
+          width: 12px;
+        }
       }
     }
   }

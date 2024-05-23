@@ -1,6 +1,7 @@
 import HorizontalRule from './HorizontalRule';
 import volumeIcon from '../../assets/volume-icon.svg';
 import arrowIcon from '../../assets/arrow-icon.svg';
+import leftArrowIcon from '../../assets/nav-arrow.svg';
 import { Link } from 'react-router-dom';
 
 export default function WindowPane(props) {
@@ -16,10 +17,14 @@ export default function WindowPane(props) {
         {props.isNavigationButtons && (
           <div className="nav-buttons">
             <div className="nav-button nav-button-left boxed">
-              <button>{'<'}</button>
+              <button>
+                <img src={leftArrowIcon} alt="" />
+              </button>
             </div>
             <div className="nav-button nav-button-right boxed">
-              <button>{'>'}</button>
+              <button>
+                <img src={leftArrowIcon} alt="" />
+              </button>
             </div>
           </div>
         )}
@@ -39,7 +44,8 @@ export default function WindowPane(props) {
       <HorizontalRule />
       <div className="content-windowpane-bottom">
         <Link to={{ pathname: props.detailsName }}>
-          View {props.detailsName}{' '}
+          {props.isView && `View `}
+          {props.detailsName}
           <span className="arrow-icon">
             <img src={arrowIcon} alt="" />
           </span>

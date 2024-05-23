@@ -7,6 +7,7 @@ export default function Home() {
     detailsName: 'About',
     isNavigationButtons: false,
     className: 'nameCard',
+    isView: false,
   };
 
   const professionCard = {
@@ -16,6 +17,7 @@ export default function Home() {
     detailsName: 'Projects',
     isNavigationButtons: true,
     className: 'professionCard',
+    isView: true,
   };
 
   const artistCard = {
@@ -25,6 +27,7 @@ export default function Home() {
     detailsName: 'Art',
     isNavigationButtons: true,
     className: 'professionCard',
+    isView: true,
   };
   return (
     <>
