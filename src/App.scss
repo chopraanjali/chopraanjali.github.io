@@ -1,15 +1,13 @@
 #root {
-  // max-width: 1920px;
   margin: 0 auto;
-  // padding: 2rem;
   text-align: center;
 }
 
 .card {
-  padding: 6em 5em;
-  min-height: 50vh;
-
-  // display: flex;
-  // flex-direction: column;
-  // justify-content: space-around;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 90vh;
+  width: 65%;
+  margin: 0 auto;
 }
