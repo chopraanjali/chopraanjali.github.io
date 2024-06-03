@@ -1,4 +1,5 @@
 import WindowPane from '../Layout/WindowPane';
+
 export default function Home() {
   const nameCard = {
     title: 'Anjali Chopra',
@@ -20,20 +21,12 @@ export default function Home() {
     isView: true,
   };
 
-  const artistCard = {
-    title: 'Visual Artist',
-    subtitle: 'Digital, Aquarell, Acrylic, Sketches',
-    isIcon: false,
-    detailsName: 'Art',
-    isNavigationButtons: true,
-    className: 'professionCard',
-    isView: true,
-  };
+  const arr = [nameCard, professionCard];
   return (
     <>
       <div className="card">
-        <WindowPane {...nameCard} />
-        <WindowPane {...professionCard} />
+        <WindowPane cards={arr[0]} />
+        <WindowPane cards={arr[1]} />
       </div>
     </>
   );
