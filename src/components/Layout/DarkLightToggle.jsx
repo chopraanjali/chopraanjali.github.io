@@ -1,5 +1,5 @@
-import moonIcon from "../../assets/moon-icon.svg";
-import sunIcon from "../../assets/sun-icon.svg";
+import moonIcon from '../../assets/moon-icon.svg';
+import sunIcon from '../../assets/sun-icon.svg';
 
 export default function DarkLightToggle() {
   return (
@@ -8,7 +8,7 @@ export default function DarkLightToggle() {
         <img src={sunIcon} alt="" />
       </div>
       <div className="toggle-child toggle-switch">
-        <input type="checkbox" name="toggle" id="toggle" />
+        <input type="checkbox" name="toggle" id="toggle" defaultChecked />
         <label htmlFor="toggle" />
       </div>
       <div className="toggle-child">
