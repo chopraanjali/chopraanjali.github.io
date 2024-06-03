@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.scss';
 import Navbar from './components/Layout/Navbar';
@@ -9,7 +8,6 @@ import Projects from './components/Pages/Projects';
 import WorkExperience from './components/Pages/WorkExperience';
 import Education from './components/Pages/Education';
 import Art from './components/Pages/Art';
-import WindowPane from './components/Layout/WindowPane';
 
 function App() {
   // const [count, setCount] = useState(0);
