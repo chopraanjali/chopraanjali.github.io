@@ -51,12 +51,12 @@ export default function WindowPane({ cards }) {
 
         {card.isNavigationButtons && (
           <div className="nav-buttons">
-            <div className="nav-button nav-button-left boxed">
+            <div className="nav-button nav-button-left boxed nav-button-light">
               <button onClick={handleBackwardNav}>
                 <img src={leftArrowIcon} alt="" />
               </button>
             </div>
-            <div className="nav-button nav-button-right boxed">
+            <div className="nav-button nav-button-right boxed nav-button-light">
               <button onClick={handleForwardNav}>
                 <img src={leftArrowIcon} alt="" />
               </button>
