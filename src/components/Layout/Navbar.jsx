@@ -18,7 +18,7 @@ export default function Navbar() {
           <Link to="/art">Art</Link>
         </li>
         <li>
-          <Link to="/contact">About</Link>
+          <Link to="/about">About</Link>
         </li>
       </ul>
       <DarkLightToggle />
