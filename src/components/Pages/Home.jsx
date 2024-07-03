@@ -1,4 +1,5 @@
 import WindowPane from '../Layout/WindowPane';
+import DownArrow from '../../assets/down-arrow-home.svg';
 
 export default function Home() {
   const nameCard = {
@@ -28,6 +29,7 @@ export default function Home() {
         <WindowPane cards={arr[0]} />
         <WindowPane cards={arr[1]} />
       </div>
+      <img className="scroll-arrow" src={DownArrow} alt="" />
     </>
   );
 }
