@@ -14,7 +14,7 @@ function App() {
 
   return (
     <>
-      <Router basename="/chopraanjali.github.io">
+      <Router>
         <Navbar />
         <Routes>
           <Route path="" element={<Home />}></Route>
